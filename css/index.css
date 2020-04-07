@@ -1,0 +1,357 @@
+
+header {
+	margin: 0 auto;
+	position:relative;
+	/*width: 1920px;*/
+	width: 100%;
+	height: 664px;
+	background: url(../images/banner.jpg) no-repeat center;
+	overflow: hidden; /* 解决上边距合并*/
+}
+
+.qiehuan {
+	position:absolute;
+	bottom: 39px;
+	left: 50%;
+	margin-left:-100px;
+	width: 200px;
+	height: 96px;
+	/*background-color: pink;*/
+	line-height: 96px;
+	text-align: center;
+}
+.qiehuan span {
+	display: inline-block;
+	width: 49px;
+	height: 3px;
+	background-color: #838a94;
+	border-radius: 2px;
+}
+.qiehuan .left {
+	margin-right: 25px;
+	background-color: #fff;
+}
+/*中间部分*/
+.infor {
+	position:relative;
+	margin: 0 auto;
+	/*width: 1920px;*/
+	width: 100%;
+	height: 950px;
+	/*background-color: pink;*/
+}
+.infor-banxin {
+	height: 950px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.info-hd {
+	margin-top:-38px;
+	width: 1160px;
+	padding: 24px 40px 24px 36px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 54px 0px 
+		rgba(92, 107, 143, 0.21);
+	/*background-color: pink;*/
+}
+.info-hd img,.info-hd p,.info-hd a {
+	float: left;
+}
+.info-hd img{
+	width: 76px;
+	height: 70px;
+}
+.info-hd p {
+	margin-left: 45px;
+	font-size: 20px;
+	color: #333;
+	line-height: 70px;
+}
+.info-hd a {
+	margin-top:16px;
+}
+.info-hd a:hover {
+	background-color: #ff7200;
+	color: #fff;
+}
+.info-title {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 391px;
+	height: 86px;
+}
+.product {
+	position: absolute;
+	top: 395px;
+	width: 1160px;
+	height: 400px;
+	/*background-color: purple;*/
+}
+.product .box {
+	position: relative;
+	float: left;
+	margin-right: 13px;
+	width: 280px;
+	height: 400px;
+	/*background-color: blue;*/
+	color: #fff;
+}
+.product .cfl {
+	margin-right: 0;
+}
+.box .top {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.box .bottom {
+	display: none;
+	position: absolute;
+	top:-40px;
+	left: -28px;
+	width: 337px;
+	height: 511px;
+}
+.bottom a {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 103px;
+	margin:auto;
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: rgba( 0,0,0,.16);
+}
+.box .tubiao {
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	margin: auto;
+	width: 192px;
+	height: 188px;
+	text-align: center;
+}
+.tubiao img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+}
+.tubiao h4 {
+	margin-top: 124px;
+	font-size: 28px;
+}
+.box:hover .top {
+	display: none;
+}
+.box:hover .bottom {
+	display: block;
+	z-index: 9;
+}
+.box:hover .tubiao {
+	top: -19px;
+}
+/*科技赋能*/
+.keji {
+	margin: 0 auto;
+	/*width: 1920px;*/
+	width: 100%;
+	height: 912px;
+	background-color: #f8fafd;
+}
+.kj-inner {
+	height: 100%;
+	/*background-color: purple;*/
+	overflow: hidden;
+}
+.keji-hd {
+	margin:82px auto 69px;
+	width: 302px;
+	height: 79px;
+}
+.links {
+	margin: 0 auto;
+	width: 1160px;
+	height: 50px;
+	/*background-color: green;*/
+}
+.links a {
+	padding: 0 25px;
+	margin-right: 10px;
+	display: inline-block;
+	width: 181px;
+	height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	font-size:18px;
+	color: #333;
+	line-height: 50px;
+	background-color: #fff;
+	box-shadow: 0px -1px 21px 0px rgba(192, 192, 192, 0.35);
+}
+.links a:nth-child(6) {
+	margin-right: 0;
+}
+.links a:hover {
+	background-color: #ff7200;
+	color: #fff;
+}
+.tencent {
+	position:relative;
+	margin:98px auto;
+	width: 1060px;
+	height: 391px;
+}
+.tencent .left {
+	position:absolute;
+	left: 0;
+	top: 0;
+	padding-left: 45px;
+	padding-top:194px;
+	width: 500px;
+	height: 391px;
+	background-color: #f8fafc;
+	box-shadow: 0px -1px 21px 0px rgba(192, 192, 192, 0.35);
+}
+.left-logo {
+	position:absolute;
+	top: 93px;
+	left: 84px;
+	width: 169px;
+	height: 35px;
+}
+.left-logo img {
+	width: 100%;
+	height: 100%;
+}
+.middle-logo {
+	position:absolute;
+	top: 86px;
+	left: 141px;
+	width: 218px;
+	height: 55px;
+}
+.middle-logo img {
+	width: 100%;
+	height: 100%;
+}
+.right-logo {
+	position:absolute;
+	top: 102px;
+	left: 259px;
+	width: 160px;
+	height: 22px;
+}
+.right-logo img {
+	width: 100%;
+	height: 100%;
+}
+.tencent .right {
+	position:absolute;
+	right: 0;
+	top: 0;
+	padding-left: 34px;
+	padding-top:194px;
+	width: 500px;
+	height: 391px;
+	background-color: #f8fafc;
+	box-shadow: 0px -1px 21px 0px rgba(192, 192, 192, 0.35);
+}
+.tencent .middle {
+	position:absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	margin: auto;
+	padding-left:39px ;
+	padding-top:210px;
+	top: -30px;
+	width: 500px;
+	height: 452px;
+	background-color: #fff;
+	box-shadow: 0px -1px 21px 0px rgba(114, 113, 113, 0.3);
+}
+.line {
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+	width: 80px;
+	height: 2px;
+	background-color: #ff7200;
+}
+.tencent p {
+	width: 422px;
+	font-family: PingFang-SC-Medium;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.arrow-left,.arrow-right {
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+	left:0;
+	display: block;
+	width: 53px;
+	height: 53px;
+}
+.arrow-left {
+	left: -70px;
+}
+.arrow-right {
+	left: 1077px;
+}
+/*依托橙券，聚焦权益，全面合作*/
+.contact {
+	/*width: 1920px;*/
+	width: 100%;
+	height: 330px;
+	margin: 0 auto;
+	background :url(../images/bg2.png) no-repeat center;
+	overflow: hidden;
+	text-align: center;
+}
+.contact h3 {
+	margin:102px auto 0;
+	width: 672px;
+	height: 71px;
+	font-size: 48px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	line-height: 48px;
+	font-family: PingFang-SC-Light;
+	color: #fff;
+}
+.contact p {
+	margin :0 auto;
+	width: 622px;
+	height: 50px;
+	font-family: PingFang-SC-Regular;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #fff;
+}
+.contact a {
+	border: solid 1px #e6e6e6;
+	color: #ffffff;
+}
+	

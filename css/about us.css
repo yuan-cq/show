@@ -1,0 +1,117 @@
+
+header {
+	background : url(../images-about/banner.png) no-repeat bottom center;
+	height: 330px;
+}
+.topnav a {
+	color: #333;
+}
+.topnav .logo {
+	background-image:  url(../images-anli/logo.png);
+}
+
+.about {
+	width: 100%;
+	height: 730px;
+	background-color: #f9f9fa;
+}
+.about-inner {
+	padding-bottom: 110px;
+	height: 730px;
+	/*background-color: pink;*/
+}
+.about h2 {
+	height: 170px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333;
+	text-align: center;
+	line-height: 200px;
+}
+.about .jieshao {
+	position: relative;
+	width: 100%;
+	height: 456px;
+	/*background-color: purple;*/
+}
+.chengquan {
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	padding: 45px 55px 0;
+	width: 719px;
+	height: 401px;
+	background-color: #fff;
+}
+.chengquan h4 {
+	font-size: 24px;
+	color: #ff7200;
+}
+.underline {
+	margin: 20px 0 20px 0;
+	width: 36px;
+	height: 3px;
+	background-color: #ff7200;
+}
+.chengquan p {
+	line-height: 30px;
+	font-size: 16px;
+	color: #666;
+}
+.honor {
+	height: 1484px;
+	/*background-color: pink;*/
+}
+.honor h2 {
+	height: 170px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333;
+	text-align: center;
+	line-height: 200px;
+}
+.honor li {
+	float: left;
+	padding-top: 50px;
+	width: 300px;
+	/*background-color: yellow;*/
+}
+.honor li p {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+
+.contact {
+	width: 1920px;
+	height: 500px;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+}
+.map {
+	float: left;
+	width: 853px;
+	height: 100%;
+	/*background-color: blue;*/
+}
+.contact dl {
+	float: left;
+	padding-top: 75px;
+	padding-left: 90px;
+}
+.contact dt {
+	font-size: 30px;
+	color: #333;
+	height: 50px;
+}
+.contact dd {
+	position:relative;
+	margin-top: 45px;
+	padding-left: 80px;
+	line-height: 28px;
+}
+.contact dd img {
+	position:absolute;
+	top:3px;
+	left: 0;
+}

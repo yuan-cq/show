@@ -1,0 +1,180 @@
+ /*京东的*/
+ *{
+ 	margin:0;
+ 	padding:0;
+ 	box-sizing:border-box;
+ }
+ /*ico 图标字体*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yd1ug');
+  src:  url('../fonts/icomoon.eot?yd1ug#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yd1ug') format('truetype'),
+    url('../fonts/icomoon.woff?yd1ug') format('woff'),
+    url('../fonts/icomoon.svg?yd1ug#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ em,i{font-style:normal}li{list-style:none}img{border:0;vertical-align:middle}button{cursor:pointer}a{color:#666;text-decoration:none}a:hover{color:#e33333}button,input{font-family:Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,\\5B8B\4F53,sans-serif}body{-webkit-font-smoothing:antialiased;background-color:#fff;font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,\\5B8B\4F53,sans-serif;color:#666}.hide,.none{display:none}.clearfix:after{visibility:hidden;clear:both;display:block;content:".";height:0}.clearfix{*zoom:1}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+input {
+  outline: none;
+}
+.knowmore {
+  position:relative;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: solid 1px #ff7200;
+  font-size: 16px;
+  color: #ff7200;
+  line-height: 40px;
+  text-align: center;
+}
+.knowmore i {
+  position:absolute;
+  font-size: 16px;
+  right: 20px;
+  top: 0;
+  font-family: "icomoon";
+}
+/*header*/
+
+.topnav {
+  height: 80px;
+}
+.topnav .logo {
+  float: left;
+  width: 131px;
+  height: 100%;
+  background: url(../images/logo2.png) no-repeat center;
+  text-indent: -9999px;
+}
+.topnav .nav {
+  float: left;
+  margin-left: 356px;
+  height:100%;
+}
+.topnav .nav li {
+  float: left;
+  margin-right:50px;
+  height:80px;
+  line-height: 80px;
+}
+.nav li:nth-child(2) {
+  position:relative;
+}
+.nav span {
+  font-family: "icomoon";
+  position:absolute;
+  right: -25px;
+  top: -3px;
+}
+.nav a {
+  font-family: PingFang-SC-Medium;
+  font-size: 16px;
+  color: #fff;
+}
+.nav a:hover {
+  color: #ff7200;
+}
+.topnav .nav .current {
+  color: #ff7200;
+}
+/*topnav结束*/
+/*底部样式开始*/
+footer {
+  margin : 0 auto;
+  /*padding: 57px 20px 0;*/
+  /*width: 1920px;*/
+  width: 100%;
+  height: 384px;
+  /*background-color: pink;*/
+  background-image: linear-gradient(
+    #22212f, 
+    #22212f), 
+  linear-gradient(180deg, 
+    #24272d 0%, 
+    #373c49 100%);
+  background-blend-mode: normal, 
+    normal;
+}
+.footer-inner {
+  padding-top: 50px;
+  padding-left: 23px;
+  /*background-color: skyblue;*/
+}
+.erweima {
+  float: left;
+  position:relative;
+  width: 353px;
+  height: 256px;
+  border-right: 1px solid #4c4f5f;
+  text-align: center;
+}
+.erweima .kefu {
+  position:absolute;
+  left: 60px;
+  top: 4px;
+
+}
+.erweima h3 {
+  padding-left: 110px;
+  font-size: 22px;
+  color: #fff;
+  line-height: 32px;
+  text-align: left;
+}
+.erweima p {
+  padding-left: 110px;
+  height: 30px;
+  font-size: 14px;
+  color: #d2d2d2;
+  text-align: left;
+}
+.ma {
+  margin-bottom: 10px;
+}
+.erweima i {
+  font-size: 12px;
+  color: #cecece;
+}
+.chenpinpai {
+  float: right;
+  margin-right:10px;
+}
+.chenpinpai dl {
+  float: left;
+  width: 100px;
+  margin-left:90px;
+}
+.chenpinpai dt {
+  font-size: 16px;
+  color: #fff;
+  height: 49px;
+}
+.chenpinpai dd {
+  font-size: 14px;
+  color: #cecece;
+  height:34px;
+}
+footer .line2 {
+  margin: 15px auto 20px;
+  width: 1245px;
+  height: 1px;
+  background-color: rgba(255,255,255,.3);
+}
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #7e8088;
+}
+/*底部样式结束*/
